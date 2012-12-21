@@ -1,0 +1,130 @@
+   body {
+        background: gray;
+        text-align: center;
+        font-family: Arial, Verdana, sans-serif;
+        height: 650px;
+    }
+#principal {
+    display: block;
+    width: 1024px;
+    height: 650px;
+    padding: 0;
+    background: white;
+    margin: 3px auto 3px auto;
+    border: 0;
+    color: #333;
+    }
+#menu, #footer {
+    font-size: 100%;
+    padding-top: 0.75em;
+    list-style-type: none;
+    position: relative;
+    color: #0366BA;
+    display: block;
+    width: 1024px;
+    margin: 0px auto;
+    }
+#menu {
+  height: 48px;
+  color: #FFFFFF;
+  background: black;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 13px;
+}
+#container {
+  height: 562px;
+  color: #000000;
+  background: #FFFFFF;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 13px;
+}
+#footer {
+  height: 40px;
+  color: #000000;
+  background: #9A9A9A;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 11px;
+}
+#botones {
+	position: relative;
+	float: right;
+	left: -20px;
+}
+#titulo {
+	position: relative;
+	float: left;
+	font-size: 30px;
+	right: -20px;
+}
+#nameUsuario{
+	position: relative;
+	float: left;
+	font-size: 15px;
+	top: 10px;
+	left: 40px;
+}
+#menu2 {
+	position: relative;
+	float: left;
+	text-align: left;
+	width: 250px;
+	top: 10px;
+	right: -10px;
+}
+#cotenido {
+	position: relative;
+	float: right;
+	text-align: justify;
+	width: 720px;
+	top: 10px;
+	left: -10px;
+}
+#tablaPrincipal
+{
+	width: 100%;
+}
+
+
+/* formulario inicio de sesion */
+
+#FormIniSesUsuario, #FormIniSesPass{
+	background: #9A9A9A;
+	color: black;
+}
+
+#botonesFormIniSes {
+	float: right;
+	right: -10px;
+}
+
+form.formRegistroUsuario, form.formIniSes label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic;
+	font-size: 12px;
+}
+input:focus { border: 1px dotted black; }
+input.error { border: 2px inset red; }
+
+/* formulario registro usuario */
+#rFormRegUsuUsuario, #rFormRegUsuEmail,
+#rFormRegUsuPass1,#rFormRegUsuPass2,
+#rFormRegUsuDesc,#rFormRegUsuFecNac{
+	background: #9A9A9A;
+	color: black;
+	width: 90%;
+}
+
+#rFormRegUsuDesc{
+	 resize: none;
+}
+
+#dMsg{
+	color: red; font-style: italic;
+}
+
+
+
+
+
+

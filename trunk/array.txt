@@ -1,0 +1,14 @@
+{
+"aaData":[
+  ["AC_XX1","ac_re_xx1","BIN_X","serv","/atos/xx/serv","V100","rm -f $ATOS_MW_BIN\/ac_reInterVRU_otr1_V1100\r\ncp ac_reInterVRU_otr1_V1100 $ATOS_MW_BIN\/ac_reInterVRU_otr1_V1100"],
+  ["AC_XX2","ac_re_xx2","BIN_X","serv","/atos/xx/serv","V100","rm -f $ATOS_MW_BIN\/ac_reInterVRU_otr1_V1100\r\ncp ac_reInterVRU_otr1_V1100 $ATOS_MW_BIN\/ac_reInterVRU_otr1_V1100"],
+  ["AC_XX3","ac_re_xx3","BIN_X","serv","/atos/xx/serv","V100","rm -f $ATOS_MW_BIN\/ac_reInterVRU_otr1_V1100\r\ncp ac_reInterVRU_otr1_V1100 $ATOS_MW_BIN\/ac_reInterVRU_otr1_V1100"],
+  ["AC_XX4","ac_re_xx4","BIN_X","serv","/atos/xx/serv","V100","rm -f $ATOS_MW_BIN\/ac_reInterVRU_otr1_V1100\r\ncp ac_reInterVRU_otr1_V1100 $ATOS_MW_BIN\/ac_reInterVRU_otr1_V1100"],
+  ["AC_XX5","ac_re_xx5","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"],
+  ["AC_XX6","ac_re_xx6","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"],
+  ["AC_XX7","ac_re_xx7","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"],
+  ["AC_XX8","ac_re_xx8","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"],
+  ["AC_XX9","ac_re_xx9","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"],
+  ["AC_XX0","ac_re_xx0","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"]
+ ]
+}
