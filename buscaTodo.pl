@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 
 use File::Find;
-#use strict;
-#use warnings;
+use strict;
+use warnings;
 
 #variable globales
 
@@ -15,6 +15,14 @@ my $fecha = "";
 my $ruta_salida = "/aplicaciones/atos/CRPR/COMPILACION/Mejoras/Informes";
 my $separador_inicio = "INICIO SERVIDOR ***********************************************";
 my $separador_final  = "FIN SERVIDOR **************************************************";
+my $iden_servicio = "Servicio=";
+my $iden_fglobal  = "Global_f=";
+my $iden_f        = "_f=";
+my $iden_servidor = "Servidor=";
+my $iden_bulk     = "Bulk=";
+my $iden_binario  = "Binario=";
+my $iden_ruta  = "Ruta=";
+my $iden_make  = "Make=";
 
 #Leemos los parametros de entrada
 
@@ -64,8 +72,9 @@ sub busca_makes{
     my $binario = "";
     my $servicio = "";
     my $_f = "";
+    my $_fGlobal = "";
     print OUT_FIC "$separador_inicio\n";
-    print OUT_FIC "Make:$make\nRuta:$ruta\n";
+    print OUT_FIC "$iden_make$make\n$iden_ruta$ruta\n";
 
     open (DATOS,"$File::Find::name");
     while (<DATOS>)
@@ -75,9 +84,25 @@ sub busca_makes{
         if($linea =~ m/SERVIDOR=([a-zA-Z0-9_]+)/) #servidor
         {
           $servidor=$1;
-          print OUT_FIC "Servidor:$servidor\n";
-          print OUT_FIC "Bulk:$servidor.bulk\n";
-          print OUT_FIC "_f:$servidor". "_f\n"; #falta ir a buscar el _f al generacion_FML
+          print OUT_FIC "$iden_servidor$servidor\n";
+          print OUT_FIC "$iden_bulk$servidor.bulk\n";
+
+          open my $fh, $genML or die "Could not open $genML $!";
+          my @buf = <$fh>;
+          close($fh);
+
+          my @lines = grep {/$servidor/} @buf;
+          chomp(@lines);
+          for my $str (@lines) {
+
+            if($str =~ m/(\s*>>\s*\$[a-zA-Z_]+\/)([a-zA-Z0-9_]+_f$)/) # busca el _f global
+            {
+              $_fGlobal = $2;
+            }
+          }
+
+          print OUT_FIC "$iden_f$servidor". "_f\n";
+          print OUT_FIC "$iden_fglobal$_fGlobal\n";
         }
         if($linea =~ m/(\s*-v\s*-o\s*\$\([a-zA-Z_]+\)\/\$\()([a-zA-Z0-9_]+)/) #binario con $(nombre)
         {
@@ -100,22 +125,38 @@ sub busca_makes{
             }
           }
 
-          print OUT_FIC "Binario:$binario\n";
+          print OUT_FIC "$iden_binario$binario\n";
         }
         if($linea =~ m/(\s*-v\s*-o\s*\$\([a-zA-Z_]+\)\/)([a-zA-Z_0-9]+)/) #binario con literal
         {
           $binario = $2;
-          print OUT_FIC "Binario:$binario\n";
+          print OUT_FIC "$iden_binario$binario\n";
         }
         if($linea =~ m/(\s*mkfldhdr32\s*\$\([a-zA-Z_]+\)\/)([a-zA-Z0-9_]+_f$)/) # busca _f
         {
           $_f = $2;
-          print OUT_FIC "_f:$_f\n"; #falta ir a buscar el _f al generacion_FML
+          print OUT_FIC "$iden_f$_f\n"; #falta ir a buscar el _f al generacion_FML
+
+          open my $fh, $genML or die "Could not open $genML $!";
+          my @buf = <$fh>;
+          close($fh);
+
+          my @lines = grep {/$_f/} @buf;
+          chomp(@lines);
+          for my $str (@lines) {
+
+            if($str =~ m/(\s*>>\s*\$[a-zA-Z_]+\/)([a-zA-Z0-9_]+_f$)/) # busca el _f global
+            {
+              $_fGlobal = $2;
+            }
+          }
+          print OUT_FIC "$iden_fglobal$_fGlobal\n";
+
         }
         if($linea =~ m/(\s*-s\s*)([a-zA-Z_0-9]+)/) #servicio
         {
           $servicio= $2;
-          print OUT_FIC "Servicio:$servicio\n";
+          print OUT_FIC "$iden_servicio$servicio\n";
         }
     }
     print OUT_FIC "$separador_final\n";
