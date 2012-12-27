@@ -1,0 +1,13 @@
+/* Query para limpiar todas las tablas */
+
+DELETE FROM s, b, c,  f, fg
+ USING
+		servidor s 
+	 LEFT JOIN binario b    ON s.ID_SERVIDOR = b.ID_SERVIDOR
+	 LEFT JOIN servicio c   ON b.ID_BINARIO  = c.ID_BINARIO
+	 LEFT JOIN _f f         ON s.ID_SERVIDOR = f.ID_SERVIDOR
+	 LEFT JOIN _f_global fg ON s.ID_SERVIDOR = fg.ID_SERVIDOR
+
+/* Query para obtener todos los datos */
+
+
