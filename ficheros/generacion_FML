@@ -1,0 +1,737 @@
+
+#agrupamos _f de ac_reInterfazGranPublico_f()
+func_genFML_ac_reInterfazGranPublico_f() {
+	echo "Generando fichero [ac_reInterfazGranPublico_f]"
+	cat $O_DIR/ac_reConsultasMovistar_f > $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazB1_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazCobros_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazComplementarios_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazCorporativo_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazCorporativo_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazDuo_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFidelizacion_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFraude_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazGPRS_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazSirio_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazTaco_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazTrade_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazVRU_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazVRU_otr1_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClave_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_div_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazLiquidacion_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazSGAC_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazVEGA_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_sep_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazCICS_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazCobros_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_bas_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazGPRS_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazGPRS_ext2_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazGPRS_ext3_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazGPRS_ext4_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reConsultasMovistar_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazSEDAC_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteCanal_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteCanal_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteCanal_ext2_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteCanal_ind_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_div_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazCanalPremium_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazCanalPremium_ind_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazMigracionForms_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_otr_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_otr1_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_otr2_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_otr3_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_otr4_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazLogistica_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazPortabilidad_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_ext1_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazCanalPremium_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazCanalPremium_ext1_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_div1_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazGPRS_ext1_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazSAD_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazMumoMM_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_div2_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_div3_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_div4_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_div5_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_div6_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_div7_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_ext2_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_ext3_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_ext4_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_ext5_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_ext6_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_ext7_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_ext8_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazImeis_ind_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazImpresionIMP_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazGPRSCRCR_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazEGRIM_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reEnviaSMS_ATOS_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_re_ayudaMAD_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_otr5_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_otr6_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFidelizacion_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reConsultasMovistar_ext1_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazComplementarios_ext_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazFacturacion_ext9_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazGPRS_ext5_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazClienteAlta_otr7_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazDIME_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_re_InterReposicionamiento_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazActiva_div8_f >> $O_DIR/ac_reInterfazGranPublico_f
+	cat $O_DIR/ac_reInterfazWebServices_f >> $O_DIR/ac_reInterfazGranPublico_f
+}
+
+#agrupamos _f de ac_reEstructurasGranPublico_f
+func_genFML_ac_reEstructurasGranPublico_f () {
+	echo "Generando fichero [ac_reEstructurasGranPublico_f]"
+	cat $O_DIR/ac_re_estrucFA_listasb1_f > $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_B1_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCC_ext2_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_SEDAC_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_GE_General_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_GL_Alta_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_GPRS_XA_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_GPRS_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_Numeracion_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_SAP_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_VRU_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_VRU_otr1_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cliente_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cliente_canal_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_canal_premium_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_canal_premium_ind_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cliente_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_corporativo_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_ctafact_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionCL_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_fraude_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_gest_empresa_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_pack_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_taco_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cliente_div_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_liquidacion_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_SGAC_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_VEGA_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_div_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_CICS_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cliente_sep_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_sep_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cliente_bas_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas7_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas8_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas8_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas8_ext1_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas7_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_SAP_ext2_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cliente_otr_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cliente_otr1_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cliente_otr2_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCL_otr3_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCL_otr3_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCL_otr4_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCL_otr4_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_liquidacion_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_LG_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_PT_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_corporativo_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_GPRS_ext2_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_GPRS_ext3_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_GPRS_ext4_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_SAD_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_MumoMM_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas2_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas4_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas5_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas6_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas6_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f	
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas5_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_activa_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_complementarios_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_GPRSCRCR_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_trade_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cobros_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_cliente_canal_ind_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_Imeis_ind_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_DCL_ext1_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_reEstructurasGranPublico_solape_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_MAD_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCL_otr5_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCL_otr5_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCL_otr5_ext1_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCL_otr6_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuras_FI_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCM_ext1_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCM_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_facturacionFA_bas9_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_GPRS_ext5_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_encapsulada_IMP_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCL_otr6_ext_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraCL_otr7_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructuraDIME_f >> $O_DIR/ac_reEstructurasGranPublico_f
+	cat $O_DIR/ac_re_estructura_reposicionamiento_RE_f >> $O_DIR/ac_reEstructurasGranPublico_f
+}
+
+#agrupamos _f de ac_reGestorNegocios_f
+func_genFML_ac_reGestorNegocios_f () {
+	echo "Generando fichero [ac_reGestorNegocios_f]"
+	cat $O_DIR/ac_reAccesoMarcoT_f > $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reAdmGestorNegociosR_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reAdmGestorTareasX1_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reAdmXaGestorNegociosS_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reAdmXaGestorNegociosS_ext_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reAdmXaGestorTareasW1_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorTareasActuacionesY_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorTareasX_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaAccesoMarcoU_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestorTareasActuacionZ_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestorTareasW_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorMonitorizacion_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestorMonitorizacion_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaServiciosCrcGX_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reServiciosCrcGE_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorNegociosExternos_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestorNegociosExternos_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorNegociosHermes_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reTransaccionGestorNegocios_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reTransaccionGestorNegocios_ext_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorTareasActuacioY_ext_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorCanalPremium_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestorCanalPremium_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestorNegociosHermes_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reAdmGestorNegociosR_ext_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reAdmGestorNegociosR_ext1_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reAdmGestorNegociosR_ext2_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorTareasActuacioY_otr_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorTareasActuacioY_otr1_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reCanalClienteCRC_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaCanalClienteCRC_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestionEgrimV_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reComunicacionTelefonicaCTI_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorNegociosVRU_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reConsultaSER_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaConsultaSER_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_re_ConsultasMasivasEMP_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_re_GestionesMasivasEMP_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_re_ConsultasMasivasGMAS_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_re_GestionesMasivasGMAS_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reServidorMAUI_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorNegociosConver_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorTareasActuacioY_otr2_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaDetError_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestorTareasActuacionZx_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestorTareasActuaZ_otr_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestorTareasActuacionZx2_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaMonitorizacionUsuarios_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reAdmGestorNegociosR_ext3_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reAdmXaGestorNegociosS_ext1_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reGestorTareasActuacioY_otr3_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_reXaGestorTareasActuacionZx3_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_re_MejoraMasivasGMAS_f >> $O_DIR/ac_reGestorNegocios_f
+	cat $O_DIR/ac_re_MejoraXAMasivasGMAS_f >> $O_DIR/ac_reGestorNegocios_f
+}
+
+#agrupamos _f ac_reTramitaciones_f
+func_genFML_ac_reTramitaciones_f () {
+	echo "Generando fichero [ac_reTramitaciones_f]"
+	cat $O_DIR/ac_re_cf_si_con_crc_f > $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_cf_si_con_cuentas_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_cf_si_con_cuentasfact_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_bc_cf_st_Cuentas_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_bc_cl_st_Clientes_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_bc_ca_st_Callejero_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_ct_st_generales_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_ct_st_tramitaciones_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_cl_si_con_asociacion_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_cl_si_con_aten_comer_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_cl_si_con_clientes_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_cl_si_con_comer_cliente_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_cl_si_con_promo_asoc_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_cl_si_con_segmentacion_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_anu_subcuenRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_ges_asociaciRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_ges_clientesRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_ges_segmentaRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_di_si_ges_direccRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_cl_si_con_comer_asoc_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_ct_si_catalogoRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_mn_MantenedorGenEnt_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_bc_mn_MantenedorGenEnt_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_fsfa_listas_sirio_ext_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Calles_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Callmigr_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Modcalles_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Modcallmigr_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Modpoblacion_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Modprovincia_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Modrangcall_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Modseudvias_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Modtipnumeca_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Modtipnumein_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Modtipvia_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Modtramine_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Provincias_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Rangcall_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Seudvias_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Tipnumecall_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Tipnumeine_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Tipvia_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Tramine_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_ca_si_CallejeroRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Poblaciones_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Calles_XA_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Callmigr_XA_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Poblaciones_XA_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Provincias_XA_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Rangcall_XA_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Seudvias_XA_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Tipnumecall_XA_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Tipnumeine_XA_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Tipvia_XA_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ca_si_Tramine_XA_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_consultasRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_consultasRSC_ext_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_ges_interRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_ct_si_ges_tramitaRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cf_si_consultasRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cf_si_ges_ctasfactRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_co_si_MantenGenEntRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_ma_si_mantenedorRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_asginterclieRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_asig_as_cliRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_camb_carteraRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ta_si_servicios_cps_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_com_ase_cliRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_ges_atncomerRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_ges_atn_asesRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_ges_corporaRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_ges_promasocRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_emAdmEmpresaRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_facturaRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_fsfa_validaciones_nsc_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_sirioRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_st_sirioRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ta_interfazRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cf_si_ges_factasocRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cf_si_lCtFactNo1NRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_ta_estructuras_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_emAdmXaEmpresaRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_cl_si_con_caracterRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_si_ges_caracterRSC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_tr_cl_st_Clientes_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_reTramitacionCRC_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_estructura_TM_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_reTramitacionCRC_ext1_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_reTramitacionCRC_ext2_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_reTramitacionCRC_ext3_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_estructura_TM_ext1_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_estructura_TM_ext2_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_estructura_TM_ext3_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_estructuras_TM_ext4_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_reTramitacionCRC_ext4_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_estructura_TM_ext4_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_estructura_TM_ext4_ext_f  >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_reTramitacionCRC_ext5_f  >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_estructura_TM_ext5_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_re_estructura_TM_ext5_ext_f >> $O_DIR/ac_reTramitaciones_f
+	cat $O_DIR/ac_reTramitaciones_solape_f >> $O_DIR/ac_reTramitaciones_f
+	
+}
+
+#agrupamos _f de ac_reEstructurasGestorNegocios_f
+func_genFML_ac_reEstructurasGestorNegocios_f () {
+	echo "Generando fichero [ac_reEstructurasGestorNegocios_f]"
+	cat $O_DIR/ac_resp_st_gestor_negocios_f > $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_st_servicios_crc_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_resp_st_gestor_negocios_ext_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_resp_st_gestor_negocios_ext2_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_resp_st_canal_cliente_crc_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_resp_st_ser_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_estructuras_masivasEMP_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_st_GMAS_ind_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_men_error_interfaz_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_estructura_MAUI_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_estructura_XaMonitouUsu_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_est_tram_gest_neg_ext_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_est_adm_gest_neg_r_ext3_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_est_adm_gest_neg_s_ext1_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_est_gest_tarea_actY_3_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_est_gest_tarea_actZx3_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_estructura_mejora_masivas_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_estructuraXA_mejora_masivas_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+	cat $O_DIR/ac_re_st_EstructuraFija_f >> $O_DIR/ac_reEstructurasGestorNegocios_f
+}
+
+#agrupamos _f de ac_reSpAltasGranPublico_f
+func_genFML_ac_reSpAltasGranPublico_f () {
+	echo "Generando fichero [ac_reSpAltasGranPublico_f]"
+	cat $O_DIR/ac_reSp_FA_itgestfact_f > $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_FA_itgestfact_ext_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_GC_gestcont_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_GC_itgestclie_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_GE_itgestayuda_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_GL_itgestact_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_GL_itgestlinea_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_GL_itgestlinea_ext_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_GL_itgestport_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_GL_itgestserv_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_GL_itgesttarj_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_LQ_gestnivent_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_RC_gestrec_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_RC_gestrec_ext_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reSp_AC_gesteci_f >> $O_DIR/ac_reSpAltasGranPublico_f
+	cat $O_DIR/ac_reInterfazSirioAlta_ind_f >> $O_DIR/ac_reSpAltasGranPublico_f
+}
+
+#agrupamos _f de ac_reEstructurasAltasGranPublico_f
+func_genFML_ac_reEstructurasAltasGranPublico_f () {
+	echo "Generando fichero [ac_reEstructurasAltasGranPublico_f]"
+	cat $O_DIR/ac_resp_st_B1_f > $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_abono_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_activa_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_ayuda_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_cambtarj_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_cobro_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_contr_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_correo_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_cuenta_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_eci_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_general_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_marke_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_movimiento_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_nivent_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_pack_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_persauto_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_perso_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_portab_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_recarg_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_sedac_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_servc_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_servgen_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_usuario_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_resp_st_ventasesc_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_re_estructura_SirioAlta_ind_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+	cat $O_DIR/ac_reEstructurasAltasGranPublico_solape_f >> $O_DIR/ac_reEstructurasAltasGranPublico_f
+}
+
+#agrupamos _f de sgce_emEmpresas_f 
+func_genFML_sgce_emEmpresas_f () {
+	echo "Generando fichero [sgce_emEmpresas_f]"
+	cat $O_DIR/sgce_emConsultasMovistar_f > $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazActiva_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazB1_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazClienteAlta_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazCobros_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazFacturacion_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazCorporativo_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazGPRS_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emGestorPedidos_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emGestorPedidosXA_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazFidelizacion_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazSAP_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emAdmEmpresa_f >> $O_DIR/sgce_emEmpresas_f 
+	cat $O_DIR/sgce_emAdmXaEmpresa_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazCorporativo_ext_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazCorporativo_sep_f >> $O_DIR/sgce_emEmpresas_f
+	cat $O_DIR/sgce_emInterfazCorporativo_div_f >> $O_DIR/sgce_emEmpresas_f
+}
+
+#agrupamos _f de ac_reFichaClienteRSC_f
+func_genFML_ac_reFichaClienteRSC_f () {
+	echo "Generando fichero [ac_reFichaClienteRSC_f]"
+	cat $O_DIR/ac_reAdmDatosCtaFaCbDir_f > $O_DIR/ac_reFichaClienteRSC_f
+	cat $O_DIR/ac_reCargarArbolFC_f >> $O_DIR/ac_reFichaClienteRSC_f
+	cat $O_DIR/ac_reCargarArbolTR_f >> $O_DIR/ac_reFichaClienteRSC_f
+	cat $O_DIR/ac_reCargarArbolTR_ext_f >> $O_DIR/ac_reFichaClienteRSC_f
+	cat $O_DIR/ac_re_st_DatosClienteLinea_f >> $O_DIR/ac_reFichaClienteRSC_f
+	cat $O_DIR/ac_reDatosClienteLinea_f >> $O_DIR/ac_reFichaClienteRSC_f
+	cat $O_DIR/ac_reDatosClienteLinea_ext1_f >> $O_DIR/ac_reFichaClienteRSC_f
+	cat $O_DIR/ac_reDatosClienteLinea_ext_f >> $O_DIR/ac_reFichaClienteRSC_f
+	cat $O_DIR/ac_reTramitacionArbolFC_f >> $O_DIR/ac_reFichaClienteRSC_f
+}
+
+#agrupamos _f de ac_reAdmGranPublico_f
+func_genFML_ac_reAdmGranPublico_f () {
+	echo "Generando fichero [ac_reAdmGranPublico_f]"
+	cat $O_DIR/ac_reAdmMasAccLentoD_f > $O_DIR/ac_reAdmGranPublico_f
+	cat $O_DIR/ac_reAdmMasAccRapidoC_f >> $O_DIR/ac_reAdmGranPublico_f
+	cat $O_DIR/ac_reAdmMenosAccRapidoA_f >> $O_DIR/ac_reAdmGranPublico_f
+	cat $O_DIR/ac_reAdmGranPublico_solape_f >> $O_DIR/ac_reAdmGranPublico_f
+}
+
+#agrupamos _f de ac_reAdmXAGranPublico_f
+func_genFML_ac_reAdmXAGranPublico_f () {
+	echo "Generando fichero [ac_reAdmXAGranPublico_f]"
+	cat $O_DIR/ac_reAdmXaMasAccRapidoG_f > $O_DIR/ac_reAdmXAGranPublico_f
+	cat $O_DIR/ac_reAdmXaMenosAccLentoF_f >> $O_DIR/ac_reAdmXAGranPublico_f
+	cat $O_DIR/ac_reAdmXaMenosAccRapidoE_f >> $O_DIR/ac_reAdmXAGranPublico_f
+	cat $O_DIR/ac_reAdmXAGranPublico_solape_f >> $O_DIR/ac_reAdmXAGranPublico_f	
+}
+
+#agrupamos _f de ac_reGesGranPublico_f
+func_genFML_ac_reGesGranPublico_f () {
+	echo "Generando fichero [ac_reGesGranPublico_f]"
+	cat $O_DIR/ac_reGesMasAccLentoL_f > $O_DIR/ac_reGesGranPublico_f
+	cat $O_DIR/ac_reGesMasAccRapidoK_f >> $O_DIR/ac_reGesGranPublico_f
+	cat $O_DIR/ac_reGesMenosAccRapidoI_f >> $O_DIR/ac_reGesGranPublico_f
+}
+
+#agrupamos _f de ac_reGesXAGranPublico_f
+func_genFML_ac_reGesXAGranPublico_f () {
+	echo "Generando fichero [ac_reGesXAGranPublico_f]"
+	cat $O_DIR/ac_reGesXaMasAccLentoP_f > $O_DIR/ac_reGesXAGranPublico_f
+	cat $O_DIR/ac_reGesXaMasAccRapidoO_f >> $O_DIR/ac_reGesXAGranPublico_f
+}
+
+#agrupamos _f de ac_reEstructurasEMP_f
+func_genFML_ac_reEstructurasEMP_f () {
+	echo "Generando fichero [ac_reEstructurasEMP_f]"
+	cat $O_DIR/ac_re_estructuraEMP_TM_f > $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_catalogoEMP_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_clienteEMP_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_clienteEMP_ext1_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_corporativoEMP_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_gprsEMP_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructuraEMP_TM_ext_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_sgacEMP_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_SAPEMP_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_corporativoEMPext1_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_fidelizacionEMP_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructuraEMP_TM_ext2_f>> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_Inter_Clie_EMP_ext1_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_CR_EMP_ext5_f >> $O_DIR/ac_reEstructurasEMP_f
+	cat $O_DIR/ac_re_estructura_Inter_Gprs_EMP_ext1_f >> $O_DIR/ac_reEstructurasEMP_f
+}
+
+#agrupamos _f de ac_reServidoresEMP_f
+func_genFML_ac_reServidoresEMP_f () {
+	echo "Generando fichero [ac_reServidoresEMP_f]"
+	cat $O_DIR/ac_reTramitacionEMP_f > $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazCatalogoEMP_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazClienteEMP_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazCorporativoEMP_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazGprsEMP_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazCorporativoEMPext_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazSGACEMP_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazSAPEMP_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reTramitacionEMP_ext_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reTramitacionEMP_ext2_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterCorporativoEMPext1_f  >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterCorporativoEMPext2_f  >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazFidelizacionEMP_f  >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterCorporativoEMPext3_f  >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazClienteEMPext_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterCorporativoEMPext4_f  >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazClienteEMP_ext1_f >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterCorporativoEMPext5_f  >> $O_DIR/ac_reServidoresEMP_f
+	cat $O_DIR/ac_reInterfazGprsEMP_ext1_f  >> $O_DIR/ac_reServidoresEMP_f
+}
+
+#agrupamos _f de ac_rePasarelaVX_f
+func_genFML_ac_rePasarelaVX_f () {
+	echo "Generando fichero [ac_rePasarelaVX_f]"
+	cat $O_DIR/ac_reInterfazPasarelaQGF0003_f > $O_DIR/ac_rePasarelaVX_f
+	cat $O_DIR/ac_reInterfazPasarelaQGF0004_f >> $O_DIR/ac_rePasarelaVX_f
+	cat $O_DIR/ac_reInterfazPasarelaQGF0005_f >> $O_DIR/ac_rePasarelaVX_f
+	cat $O_DIR/ac_reInterfazPasarelaQGF0006_f >> $O_DIR/ac_rePasarelaVX_f
+	cat $O_DIR/ac_reInterfazPasarelaQGF0007_f >> $O_DIR/ac_rePasarelaVX_f
+	cat $O_DIR/ac_re_estructura_PasarelaPA_f >> $O_DIR/ac_rePasarelaVX_f
+	cat $O_DIR/ac_re_estructura_PasarelaPA_ext_f >> $O_DIR/ac_rePasarelaVX_f
+	cat $O_DIR/ac_reInterPasarelaQGF082_f >> $O_DIR/ac_rePasarelaVX_f
+	cat $O_DIR/ac_reInterPasarelaQGF0136_f >> $O_DIR/ac_rePasarelaVX_f
+	cat $O_DIR/ac_reInterPasarelaQGF0094_f >> $O_DIR/ac_rePasarelaVX_f
+}
+
+#agrupamos _f de ac_reinterfazPasarelaVX_GF_f
+func_genFML_ac_reinterfazPasarelaVX_GF_f () {
+	echo "Generando fichero [ac_reinterfazPasarelaVX_GF_f]"
+	cat $O_DIR/ac_reInterfazPasarelaGFF0549_f > $O_DIR/ac_reinterfazPasarelaVX_GF_f
+	cat $O_DIR/ac_re_estructura_PasarelaVXGF_f >> $O_DIR/ac_reinterfazPasarelaVX_GF_f
+}
+
+#agrupamos la ac_reInterfazPasarelaM1F_f 
+func_genFML_ac_reInterfazPasarelaM1F_f () {
+	echo "Generando fichero [ac_reInterfazPasarelaM1F_f]"
+	cat $O_DIR/ac_re_estructura_PasarelaM1F_f > $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_re_estructura_PasarelaM1F_ext_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0320_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0325_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0001_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0014_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0021_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0022_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0157_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0139_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0319_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0141_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F013447_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F014950_f >> $O_DIR/ac_reInterfazPasarelaM1F_f
+	cat $O_DIR/ac_reInterfazPasarelaM1F0406_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0408_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0409_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0410_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0411_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0416_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0418_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0407_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0412_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0413_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0414_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0415_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaM1F0417_f >> $O_DIR/ac_reInterfazPasarelaM1F_f 
+	cat $O_DIR/ac_reInterfazPasarelaTMF0030_f >> $O_DIR/ac_reInterfazPasarelaM1F_f
+	cat $O_DIR/ac_reInterfazPasarelaTMF0031_f >> $O_DIR/ac_reInterfazPasarelaM1F_f
+}
+
+#agrupamos la ac_reInterfazPasarelaWF_f 
+func_genFML_ac_reInterfazPasarelaWF_f () {
+	echo "Generando fichero [ac_reInterfazPasarelaWF_f]"
+	cat $O_DIR/ac_re_estructura_PasarelaVXW_f > $O_DIR/ac_reInterfazPasarelaWF_f 
+	cat $O_DIR/ac_reInterfazPasarelaW2F0028_f >> $O_DIR/ac_reInterfazPasarelaWF_f 
+	cat $O_DIR/ac_reInterfazPasarelaW3F0005_f >> $O_DIR/ac_reInterfazPasarelaWF_f 
+	cat $O_DIR/ac_reInterfazPasarelaSMF0310_f >> $O_DIR/ac_reInterfazPasarelaWF_f
+	cat $O_DIR/ac_reInterfazPasarelaW2F0025_f >> $O_DIR/ac_reInterfazPasarelaWF_f
+	cat $O_DIR/ac_reInterfazPasarelaW3F0111_f >> $O_DIR/ac_reInterfazPasarelaWF_f
+}
+
+# GLOBAL_BASES_F
+func_genFML_GLOBAL_BASES_F () {
+	echo "Generando fichero [atos_mw_servidores.def]"
+	FECHA=`date +"%Y%m%d%H%M%S"`
+	cp $O_DIR/atos_mw_servidores.def $O_DIR/atos_mw_servidores_$FECHA.def
+	cat $O_DIR/ac_reAdmComponentes_f > $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reAdmGranPublico_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reAdmXAGranPublico_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reAdmXaComponentes_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reCatalogoAtos_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reCodConfVisual_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reEstructurasAltasGranPublico_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reEstructurasEMP_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reEstructurasGestorNegocios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reEstructurasGranPublico_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reFichaClienteRSC_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reGesGranPublico_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reGesXAGranPublico_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reGestorNegocios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reInterfazGranPublico_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reInterfazPasarelaM1F_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reInterfazPasarelaSMF0310_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reInterfazPasarelaW2F0025_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reInterfazPasarelaW2F0028_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reInterfazPasarelaW3F0005_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reInterfazPasarelaW3F0111_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_rePasarelaVX_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reinterfazPasarelaVX_GF_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reServidoresEMP_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reSpAltasGranPublico_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_reTramitaciones_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_en_GestCont_ext1_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_en_GestCont_ext2_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_en_GestCont_ext_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_en_GestCont_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_estructCatalogoAtos_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_estructura_PasarelaVXW_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_st_Componentes_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_ta_structuras_ext2_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_ta_structuras_ext3_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_ta_structuras_ext_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ac_re_ta_structuras_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/baco_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/cues_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/estr_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/gcam_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/geba_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/imei_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/sgac_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/numt_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/pams_mw_operaciones_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/sgce_emEmpresas_f >> $O_DIR/atos_mw_servidores.def
+	#cat $O_DIR/sgpf_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/sgpf_mw_fml_f >> $O_DIR/atos_mw_servidores.def
+	cat $O_DIR/ssad_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+	#cat $O_DIR/scab_mw_servicios_f >> $O_DIR/atos_mw_servidores.def
+}
+
+func_genREPO_TOTAL () {
+	func_genFML_ac_reInterfazGranPublico_f
+	func_genFML_ac_reEstructurasGranPublico_f
+	func_genFML_ac_reGestorNegocios_f
+	func_genFML_ac_reTramitaciones_f
+	func_genFML_ac_reEstructurasGestorNegocios_f
+	func_genFML_ac_reSpAltasGranPublico_f
+	func_genFML_ac_reEstructurasAltasGranPublico_f
+	func_genFML_sgce_emEmpresas_f
+	func_genFML_ac_reFichaClienteRSC_f
+	func_genFML_ac_reAdmGranPublico_f
+	func_genFML_ac_reAdmXAGranPublico_f
+	func_genFML_ac_reGesGranPublico_f
+	func_genFML_ac_reGesXAGranPublico_f
+	func_genFML_ac_reEstructurasEMP_f
+	func_genFML_ac_reServidoresEMP_f
+	func_genFML_ac_rePasarelaVX_f
+	func_genFML_ac_reinterfazPasarelaVX_GF_f
+	func_genFML_ac_reInterfazPasarelaM1F_f
+	func_genFML_GLOBAL_BASES_F
+}
+
+if [ $# -eq 1 ]
+then
+	O_DIR=$ATOS_MW_FML
+	case $1 in
+		ac_reInterfazGranPublico_f) 
+			func_genFML_ac_reInterfazGranPublico_f;;
+		ac_reEstructurasGranPublico_f) 
+			func_genFML_ac_reEstructurasGranPublico_f;;
+		ac_reGestorNegocios_f) 
+			func_genFML_ac_reGestorNegocios_f;;
+		ac_reTramitaciones_f) 
+			func_genFML_ac_reTramitaciones_f;;
+		ac_reEstructurasGestorNegocios_f) 
+			func_genFML_ac_reEstructurasGestorNegocios_f;;
+		ac_reSpAltasGranPublico_f) 
+			func_genFML_ac_reSpAltasGranPublico_f;;
+		ac_reEstructurasAltasGranPublico_f) 
+			func_genFML_ac_reEstructurasAltasGranPublico_f;;
+		sgce_emEmpresas_f) 
+			func_genFML_sgce_emEmpresas_f;;
+		ac_reFichaClienteRSC_f) 
+			func_genFML_ac_reFichaClienteRSC_f;;
+		ac_reAdmGranPublico_f) 
+			func_genFML_ac_reAdmGranPublico_f;;
+		ac_reAdmXAGranPublico_f)
+			func_genFML_ac_reAdmXAGranPublico_f;;
+		ac_reGesGranPublico_f)
+			func_genFML_ac_reGesGranPublico_f;;
+		ac_reGesXAGranPublico_f)
+			func_genFML_ac_reGesXAGranPublico_f;;
+		ac_reEstructurasEMP_f)
+			func_genFML_ac_reEstructurasEMP_f;;
+		ac_reServidoresEMP_f) 
+			func_genFML_ac_reServidoresEMP_f;;
+		ac_rePasarelaVX_f)
+			func_genFML_ac_rePasarelaVX_f;;
+		ac_reinterfazPasarelaVX_GF_f)
+			func_genFML_ac_reinterfazPasarelaVX_GF_f;;
+		ac_reInterfazPasarelaM1F_f)
+			func_genFML_ac_reInterfazPasarelaM1F_f;;
+		ac_reInterfazPasarelaWF_f) 
+			func_genFML_ac_reInterfazPasarelaWF_f;;
+		GLOBAL_BASES_F)
+			func_genFML_GLOBAL_BASES_F;;
+		TOTAL)
+			func_genREPO_TOTAL;;
+	esac
+fi
