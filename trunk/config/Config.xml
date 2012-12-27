@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Conexion>
+	<Host>localhost</Host>
+	<User>atos</User>
+	<Password>atos</Password>
+	<BBDD>BD_ProyectoAtos</BBDD>
+	<depurarSQL>1</depurarSQL>
+	<depurarDUMP>0</depurarDUMP>
+    <datos>atos_re_buscaTodo_Informe_03032012.txt</datos>
+    <sep_ini>INICIO SERVIDOR ***********************************************</sep_ini>
+    <sep_fin>FIN SERVIDOR **************************************************</sep_fin>
+    <sep_ser>Servicio=</sep_ser>
+    <sep_fbl>Global_f=</sep_fbl>
+    <sep_f>_f=</sep_f>
+    <sep_srv>Servidor=</sep_srv>
+    <sep_blk>Bulk=</sep_blk>
+    <sep_bin>Binario=</sep_bin>
+    <sep_rut>Ruta=</sep_rut>
+    <sep_mak>Make=</sep_mak>
+</Conexion>
