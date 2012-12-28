@@ -26,6 +26,16 @@ $S_RUTA = $xml->sep_rut;
 $S_MAKE = $xml->sep_mak;
 $S_F = $xml->sep_f;
 
+/* Variables de entorno tuxedo */
+
+$R_MW_FML = "\$ATOS_MW_FML";
+$R_MW_BLK = "\$ATOS_MW_BLK";
+$R_MW_BIN = "\$ATOS_MW_BIN";
+$R_BN_TMP = "\$ATOS_TX_BIN";
+$R_COMUNES = "/aplicaciones/atos/CRPR/COMPILACION/Comunes";
+$R_RELEASE = "/aplicaciones/atos/CRPR/COMPILACION/release";
+$GEN_FML = "generacion_FML";
+
 /* Variables para mostrar trazas */
 $depurar = FALSE; 
 if($xml->depurarSQL == "1")

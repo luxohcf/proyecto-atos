@@ -81,7 +81,7 @@ class CargaDatos
 	  }
     }
 	
-	private function procesarServidor($datos)
+	private function procesarServidor(&$datos)
 	{
 		//require("/parametros.php");
 		
@@ -95,7 +95,7 @@ class CargaDatos
 
 	}
 	
-	private function Insertar_FGlobs($_fs, $id_servidor)
+	private function Insertar_FGlobs(&$_fs, $id_servidor)
 	{
         if(is_array($_fs) == FALSE || strlen($id_servidor) == 0 ) return FALSE;
 
@@ -122,7 +122,7 @@ class CargaDatos
 		return TRUE;
 	}
 	
-	private function Insertar_Fs($_fs, $id_servidor)
+	private function Insertar_Fs(&$_fs, $id_servidor)
 	{
         if(is_array($_fs) == FALSE || strlen($id_servidor) == 0 ) return FALSE;
 
@@ -149,7 +149,7 @@ class CargaDatos
 		return TRUE;
 	}
 
-	private function InsertarBinario($binarios, $id_servidor)
+	private function InsertarBinario(&$binarios, $id_servidor)
 	{
 		
         if(is_array($binarios) == FALSE || strlen($id_servidor) == 0 ) return FALSE;
@@ -181,7 +181,7 @@ class CargaDatos
 		return TRUE;
 	}
 	
-	private function InsertarServicios($servicios, $id_binario)
+	private function InsertarServicios(&$servicios, $id_binario)
 	{
         if(is_array($servicios) == FALSE || strlen($id_binario) == 0 ) return FALSE;
         
@@ -246,7 +246,7 @@ class CargaDatos
 		
 		if(strlen($servidor) == 0) return "";
 
-		require("/parametros.php");
+		//require("/parametros.php");
 		
 		$mySqli = new mysqli($this->host, $this->user, $this->pass, $this->bbdd);
         
@@ -256,11 +256,11 @@ class CargaDatos
         
         if($mySqli->affected_rows > 0)
         {
+        	$mySqli->autocommit(FALSE);
+
             while($row = $res->fetch_assoc())
             {
                 $id = $row['ID_SERVIDOR'];
-				
-		        $mySqli->autocommit(FALSE);
 				
 				$sqlD = "DELETE FROM s, b, c,  f, fg
 				         USING
@@ -291,13 +291,11 @@ class CargaDatos
 @session_destroy();
 @session_unset();
 @session_start();
-set_time_limit(0);
+set_time_limit(600);
 
 $obj = new CargaDatos();
 
 $obj->cargarDatos();
-
-sleep();
 
 echo "<span>".var_dump($obj->Datos). "</span>";
 //echo "<span>".$obj->depurar(). "</span>";

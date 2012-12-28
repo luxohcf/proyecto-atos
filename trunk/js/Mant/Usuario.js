@@ -141,8 +141,8 @@ $(function() {
 	        },
 	     "bProcessing": true, //para procesar desde servidor
 	     "sServerMethod": "POST",
-	     "sAjaxSource": "./array.txt", // fuente del json
-	     //"sAjaxSource": './fuentes/BuscaUsuarios.php', // fuente del json
+	     //"sAjaxSource": "./array.txt", // fuente del json
+	     "sAjaxSource": './fuentes/Buscador.php', // fuente del json
 	     "fnServerData": function ( sSource, aoData, fnCallback ) { // Para buscar con el boton
             $.ajax( {
                 "dataType": 'json', 

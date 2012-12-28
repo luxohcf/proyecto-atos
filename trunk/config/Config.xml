@@ -6,7 +6,7 @@
 	<BBDD>BD_ProyectoAtos</BBDD>
 	<depurarSQL>1</depurarSQL>
 	<depurarDUMP>0</depurarDUMP>
-    <datos>atos_re_buscaTodo_Informe_03032012.txt</datos>
+    <datos>atos_re_buscaTodo_Informe_01012012.txt</datos>
     <sep_ini>INICIO SERVIDOR ***********************************************</sep_ini>
     <sep_fin>FIN SERVIDOR **************************************************</sep_fin>
     <sep_ser>Servicio=</sep_ser>
