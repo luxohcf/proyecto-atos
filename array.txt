@@ -9,6 +9,7 @@
   ["AC_XX7","ac_re_xx7","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"],
   ["AC_XX8","ac_re_xx8","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"],
   ["AC_XX9","ac_re_xx9","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"],
+  ["AC_XX9","ac_re_xx9","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"],
   ["AC_XX0","ac_re_xx0","BIN_X","serv","/atos/xx/serv","V100","cp xxx xxx\r\ncp xx"]
  ]
 }
